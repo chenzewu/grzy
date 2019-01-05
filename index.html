@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人主页</title>
+		<link rel="stylesheet" href="css/index.css" />
+		
+		<!--引用百度地图api-->
+		<style type="text/css">
+            .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+            .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+        </style>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+		
+	</head>
+	<body>
+		<div id="container">
+			<div id="top">
+				<div class="top-center clearFloat">
+					<div class="top-center-left clearFloat">
+						<div class="top-center-left-pic"><img src="icon/personal.png" width="100%"></div>
+						<div class="top-center-left-text">陈泽武</div>
+					</div>
+					<div class="top-center-nav clearFloat">
+						<ul>
+							<li class="active0">天空蓝</li>
+							<li>少女粉</li>
+							<li>活力黄</li>
+							<li>悠闲青</li>
+							<li>高贵蓝</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="content">
+				<div class="content-center clearFloat">
+					<!--左边欢迎字体动画-->
+					<div class="content-center-left">
+						<div class="wel-top">Welcome</div>
+						<div class="left-text">谢谢你这么好看还来看我主页</div>
+						<div class="wel-buttom">Welcome</div>
+					</div>
+					<!--右边照片魔方动画-->
+				    <div class="content-center-right">
+				    	<div class="right-box">
+				    		<div class="right-box-mian"></div>
+				    		<div class="right-box-mian"></div>
+				    		<div class="right-box-mian"></div>
+				    		<div class="right-box-mian"></div>
+				    		<div class="right-box-mian"></div>
+				    		<div class="right-box-mian"></div>
+				    	</div>
+				    </div>
+				</div>
+				<div class="content-part2">
+					<div class="center content-part2-con">
+						<span class="bt">About Me</span>
+						<div class="content-part2-text">
+							<p class="t-right"><span class="text-title">毕业院校：</span>广东理工职业学院</p>
+							<p class="t-left"><span class="text-title">联系号码：</span>11111111111</p>
+							<p class="t-center"><span class="text-title">电子邮箱：</span>1111111111@qq.com</p>
+							<p class="t-left"><span class="text-title">QQ号码：</span>1111111111</p>
+							<p class="t-right"><span class="text-title">政治面貌：</span>共青团员</p>
+							<p class="t-left"><span class="text-title">主修专业：</span>网站设计开发</p>
+							<p class="t-center"><span class="text-title">意向职位：</span>前端设计师</p>
+							<div class="zwjj">
+								<img src="img/zwjj.png" width="100%">
+							    <p class="zwjj-text">我是一名应届生，学习能级较强，能较好的独立完成项目，责任心强！</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			    <div class="content-part3">
+			    	<div class="content-part3-center">
+			    		<div class="content-part3-bt">专业技能</div>
+			    		<div class="content-part3-con clearFloat">
+			    			<div class="content-part3-con-block">
+			    				<p>html,css</p>
+			    				<div class="content-part3-con-jdt"><div class="jdt-per1"></div></div>
+			    			</div>
+			    			<div class="content-part3-con-block">
+			    				<p>PHP后台、微信小程序</p>
+			    				<div class="content-part3-con-jdt"><div class="jdt-per2"></div></div>
+			    			</div>
+			    			<div class="content-part3-con-block">
+			    				<p>数据库、C++</p>
+			    				<div class="content-part3-con-jdt"><div class="jdt-per3"></div></div>
+			    			</div>
+			    			<div class="content-part3-con-block">
+			    				<p>Ps、Ai、Falsh</p>
+			    				<div class="content-part3-con-jdt"><div class="jdt-per4"></div></div>
+			    			</div>
+			    			<div class="content-part3-con-block">
+			    				<p>office</p>
+			    				<div class="content-part3-con-jdt"><div class="jdt-per5"></div></div>
+			    			</div>
+			    			<div class="content-part3-con-block">
+			    				<p>微信公众号</p>
+			    				<div class="content-part3-con-jdt"><div class="jdt-per6"></div></div>
+			    			</div>
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="content-part4">
+			    	<div class="content-part4-center clearFloat">
+			    		<div class="content-part4-bt">在校、获奖及学习经历</div>
+			    		<div class="content-part4-con clearFloat">
+			    			<div class="part4-block">
+			    				<div class="part4-block-pic"><img src="icon/xsh.png"></div>
+			    				<div class="part4-block-text">担任系学生会干部</div>
+			    			</div>
+			    			<div class="part4-block">
+			    				<div class="part4-block-pic"><img src="icon/jxj.png"></div>
+			    				<div class="part4-block-text">获校奖学金三等奖</div>
+			    			</div>
+			    			<div class="part4-block">
+			    				<div class="part4-block-pic"><img src="icon/yxj.png"></div>
+			    				<div class="part4-block-text">获校网站设计大赛优秀奖</div>
+			    			</div>
+			    			<div class="part4-block">
+			    				<div class="part4-block-pic"><img src="icon/xm1.png"></div>
+			    				<div class="part4-block-text">大二bootstrap响应式实训</div>
+			    			</div>
+			    			<div class="part4-block">
+			    				<div class="part4-block-pic"><img src="icon/xm2.png"></div>
+			    				<div class="part4-block-text">大三达内集团校内实训</div>
+			    			</div>
+			    			<div class="part4-block">
+			    				<div class="part4-block-pic"><img src="icon/qt.png"></div>
+			    				<div class="part4-block-text">其他经历等等</div>
+			    			</div>
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="content-part5">
+			    	<div class="content-part5-center">
+			    		<div class="content-part5-bt">项目经历</div>
+			    		<div class="content-part5-con">
+			    			<div class="content-part5-con-row1 clearFloat">
+			    				<div class="pro-block1" name="lgskB"><div class="zhezhao">理工食客1</div></div>
+			    			    <div class="pro-block2" name="lgskS"><div class="zhezhao">理工食客2</div></div>
+			    			    <div class="pro-block3" name="njlB"><div class="zhezhao">农家乐1</div></div>
+			    			</div>
+			    			<div class="content-part5-con-row2 clearFloat">
+			    				<div class="pro-block4" name="njlS"><div class="zhezhao">农家乐2</div></div>
+			    			    <div class="pro-block5" name="tjS"><div class="zhezhao">仿团建自适应1</div></div>
+			    			    <div class="pro-block6" name="tjB"><div class="zhezhao">仿团建自适应2</div></div>
+			    			    <div class="pro-block7" name="wx"><div class="zhezhao">微信仿商城</div></div>
+			    			</div>
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="content-part6">
+			    	<div class="content-part6-center clearFloat">
+			    		<div class="content-part6-left">
+			    			<div class="content-part-left-pic">
+			    				<img src="img/part6-pic.jpg" width="100%">
+			    			</div>
+			    		</div>
+			    		<div class="content-part6-right">
+			    			<div class="content-part6-title bt">联系我</div>
+			    			<div class="content-part6-con-bt clearFloat">
+			    				<div class="part6-active" onclick="show(0)">微博</div>
+			    				<div onclick="show(1)">微信</div>
+			    				<div onclick="show(2)">地址</div>
+			    			</div>
+			    			<div class="content-part6-con-text">
+			    				<div class="part6-weibo">
+			    					<p>这是微博</p>
+			    					<p class="part6-ewm">假装是二维码</p>
+			    					<p>有意向可以扫码开始聊天</p>
+			    				</div>
+			    				<div class="part6-weixin">
+			    					<p>这是我的个人微信</p>
+			    					<p class="part6-ewm">假装是二维码</p>
+			    					<p>有意向可以添加</p>
+			    				</div>
+			    				<div class="part6-dizhi">
+			    					<p>这是"广东理工职业学院"地址</p>
+			    					<!--<p class="part6-dz">-->
+			    						<!--百度地图容器-->
+			    						<div id="dituContent"></div>
+			    					<!--</p>-->
+			    					<p>欢迎来找</p>
+			    				</div>
+			    			</div>
+			    		</div>
+			    	</div>
+			    </div>
+			</div>
+			<div id="footer">
+				<div class="footer-center">
+					<p>我是一名热爱学习，热爱编程的应届生</p>
+					<p>感谢你看到最后</p>
+					<img src="img/sh.gif" width="100px">
+				</div>
+			</div>
+		</div>
+		<script src="js/index.js"></script>
+		<!--百度地图api-->
+		<script src="js/baiduMap.js"></script>
+	</body>
+</html>
