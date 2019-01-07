@@ -1,3 +1,10 @@
+window.onresize = function(){
+    if(document.body.clientWidth <= "1200"){
+    	container.style.width = "1200px";
+    }else{
+        container.style.width = "100%";
+    }
+}
 window.onload = function() {
 	//主题切换导航部分js
 	var topCenterNav = document.getElementsByClassName("top-center-nav")[0];
@@ -9,14 +16,7 @@ window.onload = function() {
     var conPart3 = document.getElementsByClassName("content-part3")[0];
     var conPart4 = document.getElementsByClassName("content-part4")[0];
     var footerBor = document.getElementsByClassName("footer-center")[0];
-    
-    window.onresize = function(){
-    	if(document.body.clientWidth <= "1200"){
-    	    container.style.width = "1200px";
-        }else{
-        	container.style.width = "100%";
-        }
-    }
+
     
 	//alert(navLi.length);
 	for(var i = 0; i < navLi.length; i++) {
