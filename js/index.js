@@ -6,6 +6,11 @@ window.onresize = function(){
     }
 }
 window.onload = function() {
+	if(document.body.clientWidth <= "1200"){
+    	    container.style.width = "1200px";
+        }else{
+            container.style.width = "100%";
+        }
 	//主题切换导航部分js
 	var topCenterNav = document.getElementsByClassName("top-center-nav")[0];
 	var navLi = topCenterNav.getElementsByTagName("li");
