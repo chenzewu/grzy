@@ -1,4 +1,9 @@
 var container = document.getElementById("container");
+	if(document.body.clientWidth <= "1200"){
+            container.style.width = "1200px";
+        }else{
+    	    container.style.width = "100%";
+        }
 window.onresize = function(){
     if(document.body.clientWidth <= "1200"){
         container.style.width = "1200px";
@@ -8,12 +13,6 @@ window.onresize = function(){
 }
 window.onload = function() {
 	console.log("谢谢你这么好看还来看我的网站");
-	
-	if(document.body.clientWidth <= "1200"){
-            container.style.width = "1200px";
-        }else{
-    	    container.style.width = "100%";
-        }
 	
 	//主题切换导航部分js
 	var topCenterNav = document.getElementsByClassName("top-center-nav")[0];
