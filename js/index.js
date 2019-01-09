@@ -1,3 +1,4 @@
+var container = document.getElementById("container");
 window.onresize = function(){
     if(document.body.clientWidth <= "1200"){
         container.style.width = "1200px";
@@ -18,7 +19,6 @@ window.onload = function() {
 	var topCenterNav = document.getElementsByClassName("top-center-nav")[0];
 	var navLi = topCenterNav.getElementsByTagName("li");
     var top = document.getElementById("top");
-    var container = document.getElementById("container");
     var bt = document.getElementsByClassName("bt");
     var conPart2Text = document.getElementsByClassName("content-part2-text")[0];
     var conPart3 = document.getElementsByClassName("content-part3")[0];
