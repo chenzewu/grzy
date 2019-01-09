@@ -1,16 +1,13 @@
 window.onresize = function(){
     if(document.body.clientWidth <= "1200"){
-    	container.style.width = "1200px";
+        container.style.width = "1200px";
     }else{
-        container.style.width = "100%";
+    	container.style.width = "100%";
     }
 }
 window.onload = function() {
-	if(document.body.clientWidth <= "1200"){
-    	    container.style.width = "1200px";
-        }else{
-            container.style.width = "100%";
-        }
+	console.log("谢谢你这么好看还来看我的网站");
+	
 	//主题切换导航部分js
 	var topCenterNav = document.getElementsByClassName("top-center-nav")[0];
 	var navLi = topCenterNav.getElementsByTagName("li");
@@ -21,7 +18,7 @@ window.onload = function() {
     var conPart3 = document.getElementsByClassName("content-part3")[0];
     var conPart4 = document.getElementsByClassName("content-part4")[0];
     var footerBor = document.getElementsByClassName("footer-center")[0];
-
+    
     
 	//alert(navLi.length);
 	for(var i = 0; i < navLi.length; i++) {
